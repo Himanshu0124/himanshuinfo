@@ -1,4 +1,40 @@
- .ourservices
+.unique
+{ 
+    color: white;
+    margin: 0;
+    position: absolute; 
+    left: 26%;
+}
+
+.myText::before
+{
+    content: "";   
+    animation: type 5s steps(15) infinite;
+    white-space: nowrap;
+    color: yellowgreen;
+}
+
+@keyframes type
+{
+    0%
+    {
+        content: "Programmer";
+        width: 0%;
+    } 
+    50%
+    {
+        content: "Web Developer";
+        width: 70%;
+    }
+    100%
+    {
+        content: "Graphic Designer";
+        width: 0%;
+    }
+}
+
+
+.ourservices
 {
     padding: 100px 0px 60px;
 }
@@ -15,7 +51,7 @@
     padding-top: 250px;
     box-sizing: border-box;
 }
-.hearderset h2
+/*.hearderset h2
 {
     font-size: 42px;
 }
@@ -23,7 +59,7 @@
 {
     font-size: 75px;
     font-weight: bold;
-}
+}*/
  
 .rowsetting
 {
