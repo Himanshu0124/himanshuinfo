@@ -53,15 +53,19 @@
     box-sizing: border-box;
 }
 .hearderset h2
-{
-    font-size: 42px;
+{ 
+    font-size: 70px;
+    font-weight: bold;
 }
 .hearderset h1
 {
-    font-size: 75px;
+    font-size: 80px;
     font-weight: bold;
 }
- 
+ .me
+{
+    padding-top: 10%;
+}
 .rowsetting
 {
    margin: 80px 0px;
