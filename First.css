@@ -26,6 +26,11 @@
         content: "Web Developer";
         width: 70%;
     }
+    75%
+    {
+        content: "Blogger....!";
+        width: 70%;
+    }
     100%
     {
         content: "Graphic Designer";
@@ -125,7 +130,7 @@ a i
   }
   a:hover i
   {
-      transform: scale(2.1);
+      transform: scale(1.5);
   }
   .nav-item:hover
   {
