@@ -65,10 +65,10 @@
 {
     font-size: 70px; 
 }
- .me
+/*  .me
 {
     padding-top: 10%;
-}
+} */
 .rowsetting
 {
    margin: 80px 0px;
@@ -86,8 +86,7 @@
 .rowsetting h2
 { 
     margin-top: 20px;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 30px; 
 }
 .rowsetting p
 { 
@@ -95,7 +94,7 @@
 } 
 .about
 {
-    font-size: 60px;
+    font-size: 40px;
     color: cornflowerblue;
     text-align: left; 
 }
@@ -103,6 +102,8 @@
 {
     font-size: 22px;
     font-family: sans-serif;
+    text-align: left;
+    margin-bottom: 29%;
  }
 .contact
 {
