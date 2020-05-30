@@ -65,10 +65,10 @@
 {
     font-size: 70px; 
 }
-/*  .me
+ .me
 {
     padding-top: 10%;
-} */
+}
 .rowsetting
 {
    margin: 80px 0px;
@@ -87,6 +87,7 @@
 { 
     margin-top: 20px;
     font-size: 30px; 
+    font-weight: bold;
 }
 .rowsetting p
 { 
