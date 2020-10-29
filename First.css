@@ -1,0 +1,206 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+.cv-btn
+{
+    width:200px;
+    height:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color:#ffffff;
+    border-radius: 20px;
+}
+.cv-btn:hover
+{
+    background-color: #131313;
+    transition:all ease 0.5s;
+    text-decoration: none;
+}
+.unique
+{ 
+    color: #111;
+    margin: 0;
+    position: absolute; 
+    font-family: 'Poppins';
+    left: 9%;
+} 
+.line
+{
+    border-left: 6px solid green;
+    height: 530px; 
+    margin-left:650px;
+    position: absolute;
+}
+.work1
+{
+    text-align:left;
+     width: 600px;
+     padding-left:20%;
+     font-size: 14px;
+     font-weight:600;
+     line-height: 1.1em;
+}
+.work2
+{ 
+    text-align:left;
+     width: 600px;
+     margin-left:700px;
+     padding-left:5%;
+     font-size: 14px;
+     font-weight:600;
+     line-height: 1.1em;
+} 
+/* .experience
+{ username = 137046
+    password - 13579@tdsn
+    background-color: #C2CACA;
+}
+*/
+.education
+{
+    background-color: #B8C9BA; 
+    width:100%;  
+    
+}  
+.rounded-circle
+{
+   height:200px;
+   width:200px; 
+}
+.myText::before
+{
+    content: "";   
+    animation: type 5s steps(15) infinite;
+    white-space: nowrap;
+    color: yellowgreen;
+}
+
+@keyframes type
+{
+    0%
+    {
+        content: "Programmer";
+        width: 0%;
+    } 
+    50%
+    {
+        content: "Web Developer";
+        width: 70%;
+    }
+    75%
+    {
+        content: "Blogger....!";
+        width: 70%;
+    }
+    100%
+    {
+        content: "Graphic Designer";
+        width: 0%;
+    }
+}
+
+/*
+.ourservices
+{
+    padding: 100px 0px 60px;
+}
+*/
+.bgimg
+{
+    background-image: url('nice.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.hearderset
+{
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+.hearderset h2
+{ 
+    font-size: 50px; 
+}
+.hearderset h1
+{
+    font-size: 70px; 
+}
+ .me
+{
+    margin-top: 10%;
+}
+.rowsetting
+{
+   margin: 80px 0px;
+} 
+.imgsetting
+{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fas
+{
+  margin-top: 20px;
+}
+.rowsetting h2
+{ 
+    margin-top: 20px;
+    font-size: 30px; 
+    font-weight: bold;
+}
+.rowsetting p
+{ 
+    padding: 10px;
+} 
+.about
+{
+    font-size: 40px;
+    color: cornflowerblue;
+    text-align: left; 
+}
+#aboutp
+{
+    font-size: 25px;
+    font-weight:400;
+    font-family: 'Poppins', sans-serif;
+     
+ }
+.contact
+{
+    color: black;
+    font-family: 20px;
+    font-weight: bold;
+}
+.mob
+{
+    font-size: 30px; 
+    font-family:Sans-serif;
+    font-weight: 100;
+}
+.mail
+{
+    font-size: 23px; 
+    font-family:Sans-serif;
+/*     font-weight: 100; */
+}
+a i
+  {
+    transition: all 0.3s linear;
+  }
+  a:hover i
+  {
+      transform: scale(1.5);
+  }
+  .nav-item:hover
+  {
+      background-color: cadetblue;
+      font-size: 20px;
+  }
