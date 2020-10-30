@@ -41,7 +41,7 @@ body{
 {
     text-align:left;
      width: 600px;
-     padding-left:20%;
+     padding-left:10%;
      font-size: 14px;
      font-weight:600;
      line-height: 1.1em;
@@ -64,9 +64,8 @@ body{
 */
 .education
 {
-    background-color: #B8C9BA; 
-    width:100%;  
-    
+    /* background-color: #B8C9BA;  */
+    width:100%;     
 }  
 .rounded-circle
 {
@@ -198,9 +197,9 @@ a i
   a:hover i
   {
       transform: scale(1.5);
-  } 
- .navbar{
-    font-size:22px;
+  }
+  .navbar{
+    font-size:25px;
 }
 .nav-item
 {
@@ -209,33 +208,40 @@ a i
 .nav-item:hover
 {
      background-color: #292929;
-     border-radius: 20px;     
+     border-radius: 20px;
+      
 } 
 
 @media (max-width:768px)
 {
-    .education
-    {
-        display:block;
-    }
+     
     .line{
-        margin-left:450px;
+        margin-left:250px;
     }
     .work1
     {
         text-align:left;
-        width: 300px;
-        padding-left:20%;
+        width: 200px;
+        padding-left:5%;
         font-size: 9px;
         font-weight:400;
-        line-height: 1.1em; 
+        line-height: 1.3em;
     }
     .work2
-    {
-        margin-left:450px;
-        width: 300px;
+    {  
+        text-align:left;
+        width: 200px;
+        margin-left:300px;
+        padding-left:1%;
         font-size: 9px;
         font-weight:400;
-        line-height: 1.1em; 
+        line-height: 1.3em;
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px)
+{
+    .nav-item
+    {
+        font-size:15px;
     }
 }
