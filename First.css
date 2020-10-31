@@ -30,6 +30,7 @@ body{
     font-family: 'Poppins';
     left: 9%;
 } 
+/*
 .line
 {
     border-left: 6px solid green;
@@ -56,17 +57,17 @@ body{
      font-weight:600;
      line-height: 1.1em;
 } 
-/* .experience
+ .experience
 { username = 137046
     password - 13579@tdsn
     background-color: #C2CACA;
 }
 */
-.education
+/* .education
 {
-    /* background-color: #B8C9BA;  */
+    /* background-color: #B8C9BA;  
     width:100%;     
-}  
+}   */
 .rounded-circle
 {
    height:200px;
@@ -113,6 +114,7 @@ body{
 .bgimg
 {
     background-image: url('nice.jpg');
+    object-fit: cover;
     background-size: 100% 100%;
     background-attachment: fixed;
     width: 100%;
