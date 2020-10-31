@@ -216,7 +216,7 @@ a i
 {
      
     .line{
-        margin-left:250px;
+        margin-left:240px;
     }
     .work1
     {
@@ -231,7 +231,7 @@ a i
     {  
         text-align:left;
         width: 200px;
-        margin-left:300px;
+        margin-left:270px;
         padding-left:1%;
         font-size: 9px;
         font-weight:400;
@@ -242,6 +242,7 @@ a i
 {
     .nav-item
     {
-        font-size:15px;
+        font-size:12px;
     }
+ 
 }
